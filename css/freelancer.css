@@ -84,6 +84,9 @@ header {
     text-align: center;
     color: #fff;
     background: #332d2d;
+    background-image: url(../img/bgs/1.jpg);
+    background-position: center center;
+    background-size: cover;
 }
 
 header .container {
