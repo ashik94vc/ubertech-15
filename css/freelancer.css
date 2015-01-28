@@ -80,23 +80,18 @@ hr.star-primary:after {
     margin: 0 auto;
 }
 
-.header {
+header {
     text-align: center;
     color: #fff;
     background: #332d2d;
-    background-image: url(../img/bgs/1.jpg);
-    background-position: center center;
-    background-size: 100%;    
-    background-repeat: no-repeat;
 }
 
-.header .container {
+header .container {
     padding-top: 100px;
     padding-bottom: 50px;
-
 }
 
-.header img {
+header img {
     display: block;
     margin: 0 auto 20px;
 }
@@ -104,15 +99,7 @@ hr.star-primary:after {
   font-family: presa;
   src: url(../fonts/Presa.ttf);
 }
-
-.header .intro-text{
-    background-image: ;
-    background-size: 200px;
-    background-repeat: no-repeat;
-    background-position: left top;
-}
-
-.header .intro-text .name {
+header .intro-text .name {
     display: block;
     text-transform: uppercase;
     font-family: presa,Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -120,22 +107,22 @@ hr.star-primary:after {
     font-weight: 700;
 }
 
-.header .intro-text .skills {
+header .intro-text .skills {
     font-size: 1.25em;
     font-weight: 300;
 }
 
 @media(min-width:768px) {
-    .header .container {
+    header .container {
         padding-top: 200px;
         padding-bottom: 100px;
     }
 
-    .header .intro-text .name {
+    header .intro-text .name {
         font-size: 4.75em;
     }
 
-    .header .intro-text .skills {
+    header .intro-text .skills {
         font-size: 1.75em;
     }
 }
