@@ -592,6 +592,9 @@ footer .footer-below {
     #tagline{
         font-size: 15px;
     }
+    .modal-content h2{
+        font-size: 2em;
+    }
 }
 
 .extrapad{
@@ -609,3 +612,4 @@ footer .footer-below {
     line-height: 30px;
     vertical-align: middle;
 }
+
