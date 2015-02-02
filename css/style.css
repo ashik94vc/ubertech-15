@@ -121,11 +121,13 @@ hr.star-primary:after {
     font-family: presa,Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 2em;
     font-weight: 700;
+    padding-bottom: 0;
+    margin-bottom: 0;
 }
 
 .header .intro-text .skills {
     font-size: 1.25em;
-    font-weight: 300;
+    
 }
 
 @media(min-width:768px) {
@@ -574,3 +576,36 @@ footer .footer-below {
     width: 100%;
 }
 
+.alert{
+    background-color: #c90c0c;
+    color: white;
+}
+
+#tagline{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+
+@media(max-width: 728px){
+    #tagline{
+        font-size: 15px;
+    }
+}
+
+.extrapad{
+    padding:100px 0;
+}
+
+.checkbox{
+    padding: 20px;
+    font-size: 25px;
+}
+
+.checkbox .inputcheck{
+    padding: 10px;
+    font-size: 20px;
+    line-height: 30px;
+    vertical-align: middle;
+}
