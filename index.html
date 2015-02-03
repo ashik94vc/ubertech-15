@@ -1115,8 +1115,9 @@
                 var hash = window.location.hash;
                 if(hash.substring(1)=='confirmation')
                   {
-                    location.reload(true);
+                    $('#registermodal').modal('hide');
                     $('#confirmation').modal('show');
+                    window.location.hash = null;
                   }
             }
             google.maps.event.addDomListener(window, 'load', init);
