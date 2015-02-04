@@ -916,7 +916,7 @@
                 <h2>Registered Successfully</h2>
                 <hr class="star-primary">
                 <div class="row">
-                  <div class="col-lg-8 col-lg-offset-2" id="formbox">
+                  <div class="col-lg-8 col-lg-offset-2" id="confirmationbox">
                     <div class="row">
                       <button type="button" class="btn btn-alert btn-lg" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                     </div>
@@ -948,7 +948,8 @@
                           style="display:none;"
                           onload="if(submitted)
                                   {
-                                      window.location = 'http://www.srmubertech.in/#confirmation'
+                                    $('#registermodal').modal('hide');
+                                    $('#confirmation').modal('show');
                                   }">
                   </iframe>
                   <form id="ss-form" action="https://docs.google.com/forms/d/1g_oqSK1V5rvnXRHzRZuq-upWsFWpyvCYUTV_0cE9T5Q/formResponse" target="hidden_iframe" method="post" onsubmit="submitted=true;">
@@ -1112,12 +1113,6 @@
                     map: map,
                     title: 'Ubertech 2K15'
                 });
-                var hash = window.location.hash;
-                if(hash.substring(1)=='confirmation')
-                  {
-                    location.reload(true);
-                    $('#confirmation').modal('show');
-                  }
             }
             google.maps.event.addDomListener(window, 'load', init);
         </script>
