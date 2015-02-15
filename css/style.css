@@ -227,6 +227,11 @@ section.success {
     background: #2C3E50;
 }
 
+#page-heading {
+    background-color: #2C3E50;
+    padding: 50px 0px 50px 5px;
+}
+
 section.bluepokemon {
   color: #fff;
 }
@@ -620,4 +625,8 @@ footer .footer-below {
 .workshophead{
     font-size: 30px;
     font-weight: bold;
+}
+
+.flex{
+    color: white;
 }

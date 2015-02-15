@@ -1,0 +1,136 @@
+.flex-nav-container{
+	margin-top:30px;
+	width:100%;
+}
+#flexdemowrap p.info-link{
+	margin-bottom:10px;
+	color:#fff;
+	text-align:center;
+}
+#flexdemowrap p.info-link a{
+	color:#fff;
+	text-decoration:underline
+}
+#flexdemowrap p.info-link a:hover{
+	text-decoration:none;
+	text-shadow:0 1px 0 #2F4C63
+}
+.flex-nav-container{
+	float:right;margin:30px 0 0;
+	width:50%;
+	position:relative
+}
+.slides{
+	padding:0
+}
+.slides>li{
+	display:none;
+	margin:0
+}
+.slides img{
+	max-width:100%;
+	display:block
+}
+.flex-pauseplay span{
+	text-transform:capitalize
+}
+.slides:after{
+	content:".";
+	display:block;
+	clear:both;
+	visibility:hidden;
+	line-height:0;
+	height:0
+}
+html[xmlns] .slides{
+	display:block
+}
+* html .slides{
+	height:1%
+}
+.no-js .slides>li:first-child{
+	display:block
+}
+.flexslider{
+	min-height:280px;
+	background:#fff url(../img/loading.gif) no-repeat center center;
+	position:relative;
+	zoom:1;
+	box-shadow:0 0 7px rgba(0,0,0,.5);
+	-moz-box-shadow:0 0 7px rgba(0,0,0,.5);
+	-webkit-box-shadow:0 0 7px rgba(0,0,0,.5)
+}
+body.flexdemobody .flexslider{
+	min-height:170px
+}
+.flexslider .slides{
+	zoom:1
+}
+.flexslider .slides>li{
+	position:relative
+}
+.flex-container{
+	zoom:1;
+	position:relative
+}
+.flex-caption{
+	width:96%;
+	padding:2%;
+	position:absolute;
+	left:0;
+	bottom:0;
+	background:rgba(0,0,0,.6);
+	color:#fff;
+	text-align:center;
+	text-shadow:0 -1px 0 rgba(0,0,0,.3);
+	font-size:14px;
+	line-height:18px
+}
+
+.flex-direction-nav{
+	display: none;
+}
+.flex-prev{
+	display: none;
+}
+.flex-next{
+	display: none;
+}
+
+.flex-control-nav{
+	margin:7px 0 0;
+	text-align:center
+}
+.flex-control-nav li{
+	display:inline;
+	margin:0 7px
+}
+.flex-control-nav li a{
+	background:#fff;
+	display:inline-block;
+	overflow:hidden;
+	width:10px;
+	height:0;
+	padding-top:10px;
+	text-align:center;
+	-webkit-border-radius:300px;
+	border-radius:300px;
+	-moz-background-clip:padding;
+	-webkit-background-clip:padding-box;
+	background-clip:padding-box
+}
+.flex-control-nav li a:after{
+	content:'';
+	display:inline-block;
+	margin-top:2px;
+	overflow:hidden;
+	height:0;
+	width:4px;
+	padding-top:4px;
+	border-radius:20px;
+	-moz-border-radius:20px;
+	-webkit-border-radius:20px;
+	border:100px solid red
+}
+.flex-control-nav li a.flex-active,.flex-control-nav li:hover a{
+	background-color:#293f67}

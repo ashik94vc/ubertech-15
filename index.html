@@ -16,7 +16,7 @@
 
   <!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
   <link href="css/bootstrap.min.css" rel="stylesheet">
-
+  <link href="css/woo-flex.css" rel="stylesheet">
   <!-- Custom CSS -->
   <link href="css/style.css" rel="stylesheet">
   <!-- Custom Fonts -->
@@ -80,7 +80,7 @@
 </nav>
 
 <!-- Header -->
-<div class="jumbotron header">
+<div class="jumbotron header" style="margin-bottom:0;">
   <div class="container">
     <div class="row">
       <div class="col-lg-12">
@@ -110,6 +110,44 @@
         </div>
       </div>
     </div>
+  </div>
+</div>
+<!-- About Section -->
+<div class="flex container-fluid" id="page-heading">
+  <div class="col-lg-12">
+    <div id="page-title" class="col-md-5">
+      <h1 class="page">About Übertech </h1>
+      <br/><hr style="width:30%;" align="left"><br/> 
+      <div class="page-description">
+        <span class="intro" style="padding-bottom:20px;"><p>Übertech '13, was a two day National Level Technical Symposium was organised on August 22nd and 23rd, 2013. Along with a variety of interesting and captivating events, two workshops with hands-on training on Web Development and Cross platform Mobile app development using PhoneGap, were also organised.</p>
+        <p>
+        The mixed-bag of events attracted students from various colleges across the country, winning prizes worth over 1 lakh.</p>
+        <p>We are now back with a Bigger, Better and Grander Übertech '15</p></span>
+      </div>
+
+      <div class="buttons">
+        Check out some <a href="https://plus.google.com/+SRMUbertech/photos" title="Photos">Photos</a> of Übertech '13.
+      </div>
+
+    </div>
+    <div class="flex-nav-container col-md-5 hidden-xs">
+        <div class="flexslider">
+            <ul class="slides">
+              <li>
+                <img src="img/flex/1.JPG" class="img-responsive" />
+              </li>
+              <li>
+                <img src="img/flex/2.JPG" class="img-responsive" />
+              </li>
+              <li>
+                <img src="img/flex/3.JPG" class="img-responsive" />
+              </li>
+              <li>
+                <img src="img/flex/4.JPG" class="img-responsive" />
+              </li>
+            </ul>
+          </div>
+        </div>
   </div>
 </div>
 
@@ -263,8 +301,8 @@
 </div>
 <div class="row">
 <div class="col-lg-4 portfolio-item text-center">
-<p>Sponsor 1</p>
-</div>
+<p>Sponsor 1</p
+></div>
 <div class="col-lg-4 portfolio-item text-center">
 <p>Sponsor 2</p>
 </div>
@@ -342,16 +380,19 @@
           <h3>Around the Web</h3>
           <ul class="list-inline">
             <li>
-              <a href="https://fb.com/srmubertech" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
+              <a href="https://fb.com/srmubertech" target="_blank" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
             </li>
             <li>
-              <a href="https://www.twitter.com/srmubertech" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
+              <a href="https://www.twitter.com/srmubertech" target="_blank" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
+            </li>
+            <li>
+              <a href="https://plus.google.com/+SRMUbertech" target="_blank" class="btn-social btn-outline"><i class="fa fa-fw fa-google-plus"></i></a>
             </li>
           </ul>
         </div>
         <div class="footer-col col-md-4">
           <h3>About Us</h3>
-          <p>SRM Übertech is the Annual National Level Technical Symposium conducted by the Department of Computer Science and Engineering, SRM University, Vadapalani.</p>
+          <p style="font-size:18px">ACE is the Association of Computer Engineers. Formed by the students of SRM University Vadapalani, we aim at better appreciation of CS by organising workshops, talks and lectures for the students, with the support of our Professors</p>
         </div>
       </div>
     </div>
@@ -1124,6 +1165,7 @@
 
               <!-- jQuery -->
               <script src="js/jquery.js"></script>
+              <script type="text/javascript" src="flexslider/jquery.flexslider-min.js"></script>
               <!-- Google Maps -->
               <script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyASm3CwaK9qtcZEWYa-iQwHaGi3gcosAJc&sensor=false"></script>
               <!-- Bootstrap Core JavaScript -->
@@ -1139,6 +1181,15 @@
 
               <!-- Custom Theme JavaScript -->
               <script src="js/freelancer.js"></script>
+
+              <!-- Flex Slider -->
+              <script type="text/javascript">
+                jQuery(window).load(function() {
+                  jQuery('.flexslider').flexslider({
+                    controlsContainer: ".flex-nav-container"
+                  });
+                });
+              </script>
 
               <!-- Map -->
               <script type="text/javascript">
@@ -1172,6 +1223,7 @@
                 }
                 google.maps.event.addDomListener(window, 'load', init);
                 </script>
+
 
               </body>
 
