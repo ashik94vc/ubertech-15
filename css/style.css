@@ -89,7 +89,7 @@ hr.star-primary:after {
     background: #332d2d;
     background-image: url(../img/bgs/1.jpg);
     background-position: center center;
-    background-size: 100% 100%;;    
+    background-size: 100% 100%;;
     background-repeat: no-repeat;
 }
 
@@ -127,7 +127,7 @@ hr.star-primary:after {
 
 .header .intro-text .skills {
     font-size: 1.25em;
-    
+
 }
 
 @media(min-width:768px) {
@@ -502,7 +502,7 @@ footer .footer-below {
 
 
     text-align: center;
-    
+
 }
 
 .portfolio-modal .modal-content h2 {
@@ -515,7 +515,7 @@ footer .footer-below {
 }
 
 .portfolio-modal .modal-content .item-details {
-   
+
 }
 
 .portfolio-modal .close-modal {
@@ -629,4 +629,20 @@ footer .footer-below {
 
 .flex{
     color: white;
+}
+
+.marki{
+  font-size:18px;
+  padding:20px;
+  border-radius:5px;
+  -webkit-border-radius:5px;
+  -moz-border-radius:5px;
+  border-style:solid;
+  border-width:4px;
+  border-color:white;
+  margin-top:15px;
+}
+
+.markitext{
+  color:#d2d2d2;
 }
