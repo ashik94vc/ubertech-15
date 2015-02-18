@@ -646,3 +646,7 @@ footer .footer-below {
 .markitext{
   color:#d2d2d2;
 }
+.charizard div,.charizard span,.charizard object,.charizard iframe,.charizard h1,.charizard h2,.charizard h3,.charizard h4,.charizard h5,.charizard h6,.charizard p,.charizard a,.charizard em,.charizard img,.charizard small,.charizard strike,.charizard strong,.charizard dl,.charizard dt{
+  font: inherit;
+  font-size: 25px;
+}

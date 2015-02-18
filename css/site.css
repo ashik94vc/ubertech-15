@@ -1,0 +1,122 @@
+.text-center{text-align:center !important}
+
+.section.-countdown {
+    color: #03a9f4;
+}
+
+.circle {
+    display: block;
+    -webkit-border-radius: 1em;
+    -moz-border-radius: 1em;
+    -ms-border-radius: 1em;
+    -o-border-radius: 1em;
+    border-radius: 1em;
+    overflow: visible;
+    position: relative;
+    height: 2em;
+    width: 2em;
+}
+
+.circle .before,.circle .after,.circle .middle {
+    background: #f1f2f2;
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    height: 2em;
+    width: 1em;
+    overflow: visible;
+    -webkit-transform: translate3d(0, 0, 0) scale3d(1, 1, 1);
+    -moz-transform: translate3d(0, 0, 0) scale3d(1, 1, 1);
+    -ms-transform: translate3d(0, 0, 0) scale3d(1, 1, 1);
+    -o-transform: translate3d(0, 0, 0) scale3d(1, 1, 1);
+    transform: translate3d(0, 0, 0) scale3d(1, 1, 1);
+}
+
+.circle .before {
+    -webkit-border-radius: 1em 0 0 1em;
+    -moz-border-radius: 1em 0 0 1em;
+    -ms-border-radius: 1em 0 0 1em;
+    -o-border-radius: 1em 0 0 1em;
+    border-radius: 1em 0 0 1em;
+    left: 0;
+    right: 50%;
+}
+
+.circle .after {
+    -webkit-border-radius: 0 1em 1em 0;
+    -moz-border-radius: 0 1em 1em 0;
+    -ms-border-radius: 0 1em 1em 0;
+    -o-border-radius: 0 1em 1em 0;
+    border-radius: 0 1em 1em 0;
+    right: 0;
+}
+
+.circle .middle {
+    right: 0;
+    -webkit-border-radius: 0 1em 1em 0;
+    -moz-border-radius: 0 1em 1em 0;
+    -ms-border-radius: 0 1em 1em 0;
+    -o-border-radius: 0 1em 1em 0;
+    border-radius: 0 1em 1em 0;
+    -webkit-transform-origin: 0 50%;
+    -moz-transform-origin: 0 50%;
+    -ms-transform-origin: 0 50%;
+    -o-transform-origin: 0 50%;
+    transform-origin: 0 50%;
+    -webkit-transition: background 350ms ease-out;
+    -moz-transition: background 350ms ease-out;
+    -o-transition: background 350ms ease-out;
+    transition: background 350ms ease-out;
+}
+
+.binary {
+    display: inline-block;
+    font-size: 1em;
+    margin-top: 4.44444em;
+}
+
+@media only screen and (max-width: 767px) {
+    .binary {
+        font-size: 0.66667em;
+    }
+}
+
+.binary__value {
+    display: inline;
+    float: left;
+    margin: 0 0.4em;
+}
+
+.binary__value.-days {
+    margin-left: 0;
+}
+
+.binary__value.-seconds {
+    margin-right: 0;
+}
+
+.binary__decimal {
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+.binary__unit {
+    margin: 0.4em;
+    height: 2em;
+    width: 2em;
+}
+
+.binary__unit.-first {
+    margin-left: 0;
+}
+
+.binary__unit.-last {
+    margin-right: 0;
+}
+
+@media only screen and (max-width: 767px) {
+    .binary__unit {
+        font-size: 9px;
+    }
+}
