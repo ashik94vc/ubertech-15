@@ -650,3 +650,11 @@ footer .footer-below {
   font: inherit;
   font-size: 25px;
 }
+.timer-text{
+  font-size:24px;
+}
+@media(min-width:992px){
+  .timer-text{
+    font-size:36px;
+  }
+}
