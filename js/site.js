@@ -1,5 +1,5 @@
 /* Placeholders.js v3.0.2 */
-var ThisIsTheEndDate = new Date("March 04, 2015 9:00:00 am IST");
+var ThisIsTheEndDate = new Date("March 03, 2015 7:30:00 pm PDT");
 (function (t) {
     "use strict";
 
